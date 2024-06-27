@@ -10,10 +10,10 @@ edition = "2021"
 cargo-fuzz = true
 
 [dependencies]
-libfuzzer-sys = { version = "0.4.6", optional = true }
-afl = { version = "0.13.3", optional = true }
-log = "0.4.19"
-simplelog = "0.12.1"
+libfuzzer-sys = { version = "0.4", optional = true }
+afl = { version = "0.15", optional = true }
+log = "0.4"
+simplelog = "0.12"
 
 [dependencies.dpe]
 path = ".."
